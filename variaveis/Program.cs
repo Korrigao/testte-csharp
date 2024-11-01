@@ -20,3 +20,45 @@ bool estaLogado = true;
 bool estaAtivo = false;
 
 
+
+
+
+//tipos de dados nao primitivos
+string mensagem = "ola mundo";
+
+// arrays: colecao de elementos do mesmo tipo.
+int[] numeros = {1,4,7,10};
+string[] nomes = {"Joao","Thomas","Luiza"}
+
+//classes
+public class Pessoa
+{
+    public string nome;
+    public string idade;
+}
+
+//Structs
+public class Ponto
+{
+    public int X;
+    public int Y;
+}
+
+//Enums: sao usados para definir conjuntos de constantes nomeadas
+public enum DiadaSemana
+{
+    Segunda, Terca, Quarta, Quinta, Sexta, Sabado, Domingo
+}
+
+
+//interfaces
+public interface IVeiculo
+{
+    void Mover();
+}
+
+//Delegates
+public delegate void Processar(int numero);
+
+//Nullable types
+int? idade = null
