@@ -22,7 +22,6 @@ bool estaAtivo = false;
 
 
 
-
 //tipos de dados nao primitivos
 string mensagem = "ola mundo";
 
