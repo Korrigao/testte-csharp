@@ -41,10 +41,16 @@ bool gap = true;
 bool upa = false;
 Console.WriteLine(gap^upa);
 
-// Precedencia de operadores lógicos not logico, And Lógico, Or lógico e ou exclusivo
+// Precedencia de operadores lógicos: (!)not logico, (&&)And Lógico, (||)Or lógico e (^)ou exclusivo
 
 bool ui = true;
 bool ai = false;
 bool ca = false;
 bool ressss = !ui||(ai&&ca);
 Console.WriteLine(ressss);
+
+bool ku = false;
+bool ii = false;
+bool ja = false;
+bool dab = !ku||ii&&ja;
+Console.WriteLine(dab);
