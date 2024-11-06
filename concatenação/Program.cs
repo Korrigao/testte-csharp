@@ -28,3 +28,32 @@ Console.WriteLine("A variável ValorTexto é do tipo" + ValorTexto.GetType());
 int numero1 = int.Parse(ValorTexto);
 Console.WriteLine(numero1);
 Console.WriteLine("A variável numeroParse é do tipo:" + numero1.GetType());
+
+
+//Metodo Convert permite convertert uma variedade maior de tipos de dados
+
+string valorEmTexto = "100";
+
+int numeroConvertido = Convert.ToInt32(valorEmTexto);
+Console.WriteLine(numeroConvertido.GetType());
+
+
+//Metodo To.String consegue converter QUALQUER tipo de dados em tipo string
+int numerao = 9878;
+Console.WriteLine(numerao.GetType());
+
+string numeraoemstring = numerao.ToString();
+Console.WriteLine(numeraoemstring.GetType());
+
+
+
+//Conversão de Datas com o To.String.
+DateTime  dataAtual = DateTime.Now;
+Console.WriteLine(dataAtual);
+
+string dataFormatada = dataAtual.ToString("dd/MM/yyyy");
+Console.WriteLine(dataFormatada);
+
+string dataHora = dataAtual.ToString("HH:mm:ss");
+Console.WriteLine(dataHora);
+

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SENAC\\Documents\\GitHub\\testte-csharp\\concatenação\\concatenação.csproj": {}
+    "C:\\Users\\SENAC\\Desktop\\testte-csharp\\concatenação\\concatenação.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SENAC\\Documents\\GitHub\\testte-csharp\\concatenação\\concatenação.csproj": {
+    "C:\\Users\\SENAC\\Desktop\\testte-csharp\\concatenação\\concatenação.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SENAC\\Documents\\GitHub\\testte-csharp\\concatenação\\concatenação.csproj",
+        "projectUniqueName": "C:\\Users\\SENAC\\Desktop\\testte-csharp\\concatenação\\concatenação.csproj",
         "projectName": "concatenação",
-        "projectPath": "C:\\Users\\SENAC\\Documents\\GitHub\\testte-csharp\\concatenação\\concatenação.csproj",
+        "projectPath": "C:\\Users\\SENAC\\Desktop\\testte-csharp\\concatenação\\concatenação.csproj",
         "packagesPath": "C:\\Users\\SENAC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SENAC\\Documents\\GitHub\\testte-csharp\\concatenação\\obj\\",
+        "outputPath": "C:\\Users\\SENAC\\Desktop\\testte-csharp\\concatenação\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
