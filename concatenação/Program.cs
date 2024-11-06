@@ -57,3 +57,16 @@ Console.WriteLine(dataFormatada);
 string dataHora = dataAtual.ToString("HH:mm:ss");
 Console.WriteLine(dataHora);
 
+
+//Uso em interpolação de moedas
+double preço = 29.99;
+Console.WriteLine($"O preço é: {preço.ToString("C2")}");
+
+
+//Cultura e Formato
+decimal valor = 1234.98m;
+string valorUS = valor.ToString("C", new System.Globalization.CultureInfo("en-US"));
+Console.WriteLine(valorUS);
+
+string valorBR = valor.ToString("C", new System.Globalization.CultureInfo("pt-BR"));
+Console.WriteLine(valorBR);
