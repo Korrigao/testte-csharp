@@ -102,7 +102,90 @@
 // }
 
 
-//Operador Ternário é uma forma mais simples de escreer uma estrutura condicional if else um uma única linha
-int idade = 15;
-string mensagem = idade>=18 ? "Maior de idade" : "Menor de idade;"
-Console.WriteLine(mensagem);
+//Operador Ternário é uma forma mais simples de escrever uma estrutura condicional if else um uma única linha
+// int idade = 25;
+// string mensagem = idade>=18 ? "Maior de idade" : "Menor de idade";
+// //Se o resultado da variável string é verdadeiro então irá retornar a primeira mensagem, senão retornará a segunda mensagem.
+// Console.WriteLine(mensagem);
+//melhor usar esse método do que o if else pois ocupa menos memoria
+
+
+
+//Exercício 01
+// Console.WriteLine("Digite sua idade:");
+// string? idade = Console.ReadLine();
+// int idadeconvertida = Convert.ToInt32(idade);
+// Console.WriteLine(" Você possui autorização?");
+// string? autorizacao = Console.ReadLine();
+// bool autorização = Convert.ToBoolean(autorizacao);
+
+// if (idadeconvertida>=18 || autorização == true)
+// {
+//     Console.WriteLine("Autorizado");
+// }
+// else 
+// {
+//     Console.WriteLine("Não autorizado");
+// }
+
+//outra solução
+// bool eMaiordeIdade = true;
+// bool PossuiAutorização = false;
+// string mensagem = eMaiordeIdade || PossuiAutorização ? "Entrada Liberada" : "Entrada não liberada";
+// Console.WriteLine(mensagem);
+
+
+
+
+//Exercicio 2
+// double nota1 = 5.0;
+// double nota2 = 6.0;
+// double nota3 = 8.0;
+// double media = (nota1 + nota2 + nota3) / 3;
+// bool presença = true;
+// string? mensagem = presença && media>=7 ? "Aprovado" : "Reprovado";
+// Console.WriteLine(mensagem);
+
+
+// Console.WriteLine("Possui presença mínima?");
+// string? pre = Console.ReadLine();
+// bool presença = Convert.ToBoolean(pre);
+
+// if (presença == false)
+// {
+//     Console.WriteLine("Reprovado");
+// }
+// else
+// {
+//     Console.WriteLine("Possui média maior ou igual a 7?");
+//     string? me = Console.ReadLine();
+//     bool media = Convert.ToBoolean(me);
+//     string? mensagem = media  ? "Aprovado" : "Reprovado";
+//     Console.WriteLine(mensagem);
+// }
+
+
+
+
+//Exercício 3
+// bool chuva = false;
+// bool tarde = false;
+// string? mensagem = !chuva && !tarde ? "Vou pedalar!" : "Vou pedalar outro dia";
+// Console.WriteLine(mensagem);
+
+Console.WriteLine("Choveu?");
+string? ch = Console.ReadLine();
+bool choveu = Convert.ToBoolean(ch);
+
+if (choveu)
+{
+    Console.WriteLine("Vou pedalar outro dia.");
+}
+else
+{
+    Console.WriteLine("Está tarde?");
+    string? ta = Console.ReadLine();
+    bool tarde = Convert.ToBoolean(ta);
+    string? mensagem = !tarde ? "Vou pedalar" : "Vou pedalar outro dia";
+    Console.WriteLine(mensagem);
+}
