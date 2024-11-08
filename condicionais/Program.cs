@@ -82,21 +82,27 @@
 
 //Estutura Condicional: como vimos anteriormente podemos fazer uma série de else if s para saber a vogal, 
 //mas com o switch case é muito mais fácil:
-Console.WriteLine("Digite uma vogal:");
-string? letra = Console.ReadLine();
-string letraminuscula = letra.ToLower();
+// Console.WriteLine("Digite uma vogal:");
+// string? letra = Console.ReadLine();
+// string letraminuscula = letra.ToLower();
 
-switch (letraminuscula)
-{
-    case "a":
-    case "e":
-    case "i":
-    case "o":
-    case "u":
-        Console.WriteLine($"A letra '{letraminuscula}' é uma vogal.");
-        break;
-    default:
-        Console.WriteLine($"A letra ou número '{letraminuscula}' não é uma vogal");
-        break;
+// switch (letraminuscula)
+// {
+//     case "a":
+//     case "e":
+//     case "i":
+//     case "o":
+//     case "u":
+//         Console.WriteLine($"A letra '{letraminuscula}' é uma vogal.");
+//         break;
+//     default:
+//         Console.WriteLine($"A letra ou número '{letraminuscula}' não é uma vogal");
+//         break;
 
-}
+// }
+
+
+//Operador Ternário é uma forma mais simples de escreer uma estrutura condicional if else um uma única linha
+int idade = 15;
+string mensagem = idade>=18 ? "Maior de idade" : "Menor de idade;"
+Console.WriteLine(mensagem);
