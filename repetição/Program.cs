@@ -57,7 +57,7 @@
 //for - utiizado quando o numero de repetições é conhecido previamente. Útil para exeutar um bloco de codigo num numero fixo de vezes.
 // for(inicialização; condição; incremento)
 // {
-//     //códigoa ser executando em cada iteração
+//     //código a ser executando em cada iteração
 // }
 
 // for (int i = 0;i <= 10; i++)
@@ -98,11 +98,9 @@
 
 
 //Exercicio 3 - Crie um algoritmo que conte o numero de vogais (a,e,i,o,u) na palavra e exiba o resultado.
-Console.WriteLine("Digite sua palavra:");
-string? palavra = Console.ReadLine();
-string vogal = palavra.ToLower();
+string? palavra = "abacaxi";
 int contador = 0;
-switch (vogal)
+switch (palavra)
 {
     case "a":
     case "e":
