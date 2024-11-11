@@ -98,20 +98,20 @@
 
 
 //Exercicio 3 - Crie um algoritmo que conte o numero de vogais (a,e,i,o,u) na palavra e exiba o resultado.
-string? palavra = "abacaxi";
-int contador = 0;
-switch (palavra)
-{
-    case "a":
-    case "e":
-    case "i":
-    case "o":
-    case "u":
-    contador++;
-    break;
+// string? palavra = "abacaxi";
+// int contador = 0;
+// switch (palavra)
+// {
+//     case "a":
+//     case "e":
+//     case "i":
+//     case "o":
+//     case "u":
+//     contador++;
+//     break;
 
-}
-Console.WriteLine(contador);
+// }
+// Console.WriteLine(contador);
 
 //Exercicio 4 - Crie um algoritmo que solicite uma palavra ou frase do usuario verifique se e um palindromo, ou seja,
 //se e igual de tras para frente.
@@ -120,22 +120,21 @@ Console.WriteLine(contador);
 
 //Exercicio 5 - Crie um algoritmo onde o computador escolhe um numero aleatorio entre 1 e 100 e o usuario deve adivinhar.
 //Após cada tentativa o programa indica se o numero é maior ou menor.
-// Console.WriteLine("Adivinhe o número:");
-// string? adivinhe = Console.ReadLine();
-// int numeroconvertido = Convert.ToInt32(adivinhe);
-// Random numeroAleatorio = new Random();
-// int numero = numeroAleatorio.Next(1,101);
+Console.WriteLine("Adivinhe o número:");
+string? adivinhe = Console.ReadLine();
+int numeroconvertido = Convert.ToInt32(adivinhe);
+Random numeroAleatorio = new Random();
+int numero = numeroAleatorio.Next(1,101);
 
-// while (numeroconvertido != numero)
-// {
-//     Console.WriteLine("Numero errado");
-//     if (numeroconvertido > numero)
-//     {
-//         Console.WriteLine("numero digitado maior que o numero aleatorio.");
-//     }
-//     else
-//     {
-//         Console.WriteLine("Número digitado menor que o numero aleatório.");
-//     }
-// }
-// Console.WriteLine($"Numero adivinhado: {numeroconvertido}");
+while (numeroconvertido != numero)
+{
+    if (numeroconvertido > numero)
+    {
+        Console.WriteLine("numero digitado maior que o numero aleatorio.");
+    }
+    else
+    {
+        Console.WriteLine("Número digitado menor que o numero aleatório.");
+    }
+}
+Console.WriteLine($"Numero adivinhado: {numeroconvertido}");
