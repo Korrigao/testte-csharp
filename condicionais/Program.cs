@@ -111,7 +111,7 @@
 
 
 
-//Exercício 01
+//Exercício 01 - Fluxograma
 // Console.WriteLine("Digite sua idade:");
 // string? idade = Console.ReadLine();
 // int idadeconvertida = Convert.ToInt32(idade);
@@ -137,7 +137,7 @@
 
 
 
-//Exercicio 2
+//Exercicio 2 - Fluxograma
 // double nota1 = 5.0;
 // double nota2 = 6.0;
 // double nota3 = 8.0;
@@ -167,7 +167,8 @@
 
 
 
-//Exercício 3
+
+//Exercício 3 - Fluxograma
 // bool chuva = false;
 // bool tarde = false;
 // string? mensagem = !chuva && !tarde ? "Vou pedalar!" : "Vou pedalar outro dia";
