@@ -1,0 +1,14 @@
+C:\Users\SENAC\Desktop\testte-csharp\repetição\bin\Debug\net7.0\repetição.exe
+C:\Users\SENAC\Desktop\testte-csharp\repetição\bin\Debug\net7.0\repetição.deps.json
+C:\Users\SENAC\Desktop\testte-csharp\repetição\bin\Debug\net7.0\repetição.runtimeconfig.json
+C:\Users\SENAC\Desktop\testte-csharp\repetição\bin\Debug\net7.0\repetição.dll
+C:\Users\SENAC\Desktop\testte-csharp\repetição\bin\Debug\net7.0\repetição.pdb
+C:\Users\SENAC\Desktop\testte-csharp\repetição\obj\Debug\net7.0\repetição.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SENAC\Desktop\testte-csharp\repetição\obj\Debug\net7.0\repetição.AssemblyInfoInputs.cache
+C:\Users\SENAC\Desktop\testte-csharp\repetição\obj\Debug\net7.0\repetição.AssemblyInfo.cs
+C:\Users\SENAC\Desktop\testte-csharp\repetição\obj\Debug\net7.0\repetição.csproj.CoreCompileInputs.cache
+C:\Users\SENAC\Desktop\testte-csharp\repetição\obj\Debug\net7.0\repetição.dll
+C:\Users\SENAC\Desktop\testte-csharp\repetição\obj\Debug\net7.0\refint\repetição.dll
+C:\Users\SENAC\Desktop\testte-csharp\repetição\obj\Debug\net7.0\repetição.pdb
+C:\Users\SENAC\Desktop\testte-csharp\repetição\obj\Debug\net7.0\repetição.genruntimeconfig.cache
+C:\Users\SENAC\Desktop\testte-csharp\repetição\obj\Debug\net7.0\ref\repetição.dll
