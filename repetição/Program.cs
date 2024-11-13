@@ -83,7 +83,16 @@
 
 
 //Exercicio 1 -crie um algoritmo que some todos os numeros pares de 1 a 100 e exiba o resultado no console
+// int soma = 0;
 
+// for(int i =1; i<=100; i++)
+// {
+//     if (i % 2 == 0)
+//     {
+//         soma++;
+//     }
+// }
+// Console.WriteLine(soma);
 
 
 //Exercicio 2 - Crie um algoritmo de contagem regressiva de 10 a 1 e exiba "Decolar!" ao final
@@ -98,43 +107,56 @@
 
 
 //Exercicio 3 - Crie um algoritmo que conte o numero de vogais (a,e,i,o,u) na palavra e exiba o resultado.
-// string? palavra = "abacaxi";
+// Console.WriteLine("Digite sua palavra:");
+// string? palavra = Console.ReadLine().ToLower();
 // int contador = 0;
-// switch (palavra)
-// {
-//     case "a":
-//     case "e":
-//     case "i":
-//     case "o":
-//     case "u":
-//     contador++;
-//     break;
 
+
+// foreach (char letra in palavra)
+// {
+//     if ("aeiou".Contains(letra))
+//     {
+//         contador++;
+//     }
 // }
 // Console.WriteLine(contador);
 
 //Exercicio 4 - Crie um algoritmo que solicite uma palavra ou frase do usuario verifique se e um palindromo, ou seja,
 //se e igual de tras para frente.
-
+// Console.WriteLine("Digite uma palavra:");
+// string entrada = Console.ReadLine().ToLower().Replace(" ", "");
+// string reverso = new string (entrada.Reverse().ToArray());
+// if (entrada == reverso)
+// {
+//     Console.WriteLine("É um palidromo");
+// }
 
 
 //Exercicio 5 - Crie um algoritmo onde o computador escolhe um numero aleatorio entre 1 e 100 e o usuario deve adivinhar.
 //Após cada tentativa o programa indica se o numero é maior ou menor.
-Console.WriteLine("Adivinhe o número:");
-string? adivinhe = Console.ReadLine();
-int numeroconvertido = Convert.ToInt32(adivinhe);
 Random numeroAleatorio = new Random();
-int numero = numeroAleatorio.Next(1,101);
+int numeral = numeroAleatorio.Next(1,101);
+bool acertou = false;
+int tentativa;
 
-while (numeroconvertido != numero)
-{
-    if (numeroconvertido > numero)
+Console.WriteLine("Tente adivinhar um número de 1 a 100");
+
+while(!acertou)
+{   
+    Console.Write("digite seu numero:");
+    tentativa = int.Parse(Console.ReadLine());
+
+    if (tentativa < numeral)
     {
         Console.WriteLine("numero digitado maior que o numero aleatorio.");
     }
-    else
+    else if (tentativa > numeral)
     {
         Console.WriteLine("Número digitado menor que o numero aleatório.");
+    }   
+    else
+    {
+        Console.WriteLine("Parabéns você adivinhou o numero!");
+        acertou = true;
     }
 }
-Console.WriteLine($"Numero adivinhado: {numeroconvertido}");
