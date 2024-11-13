@@ -123,12 +123,24 @@
 
 //Exercicio 4 - Crie um algoritmo que solicite uma palavra ou frase do usuario verifique se e um palindromo, ou seja,
 //se e igual de tras para frente.
-// Console.WriteLine("Digite uma palavra:");
-// string entrada = Console.ReadLine().ToLower().Replace(" ", "");
-// string reverso = new string (entrada.Reverse().ToArray());
-// if (entrada == reverso)
+// internal class Program
 // {
-//     Console.WriteLine("É um palidromo");
+//     private static void Main(string[] args)
+//     {
+//         //Exercicio 4 - Crie um algoritmo que solicite uma palavra ou frase do usuario verifique se e um palindromo, ou seja,
+//         //se e igual de tras para frente.
+//         Console.WriteLine("Digite uma palavra:");
+//         string entrada = Console.ReadLine().ToLower().Replace(" ", "");
+//         string reverso = new string(entrada.Reverse().ToArray());
+//         if (entrada == reverso)
+//         {
+//             Console.WriteLine("É um palindromo");
+//         }
+//         else
+//         {
+//             Console.WriteLine("Palavra não é um palindromo");
+//         }
+//     }
 // }
 
 
@@ -138,6 +150,7 @@ Random numeroAleatorio = new Random();
 int numeral = numeroAleatorio.Next(1,101);
 bool acertou = false;
 int tentativa;
+int contador = 0;
 
 Console.WriteLine("Tente adivinhar um número de 1 a 100");
 
@@ -146,17 +159,21 @@ while(!acertou)
     Console.Write("digite seu numero:");
     tentativa = int.Parse(Console.ReadLine());
 
-    if (tentativa < numeral)
+    if (tentativa > numeral)
     {
         Console.WriteLine("numero digitado maior que o numero aleatorio.");
+        contador++;
+        
     }
-    else if (tentativa > numeral)
+    else if (tentativa < numeral)
     {
         Console.WriteLine("Número digitado menor que o numero aleatório.");
+        contador++;
     }   
     else
     {
-        Console.WriteLine("Parabéns você adivinhou o numero!");
+        contador++;
+        Console.WriteLine($"Parabéns você adivinhou o numero em {contador} tentativas.");
         acertou = true;
     }
 }
