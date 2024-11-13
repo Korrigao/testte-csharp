@@ -57,6 +57,13 @@ else
 }
 
 
+Console.WriteLine("nomes na lista após a remoção:");
+for (int i = 0; i < listadenomes.Count; i++)
+{
+    Console.WriteLine(listadenomes[i]);
+}
 
 
-//
+
+
+//Conjuntos
