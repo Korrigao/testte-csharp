@@ -106,19 +106,20 @@
 
 
 
-//Exercício 01
-int[] meuArray = new int[5];
-meuArray[0] = 1;
-meuArray[1] = 2;
-meuArray[2] = 3;
-meuArray[3] = 4;
-meuArray[4] = 5;
-int soma = 0;
-foreach (char somando in meuArray)
-{
-    soma += somando;
-}
-Console.WriteLine(soma);
+//Exercício 1
+// int[] meuArray = new int[5];
+// meuArray[0] = 1;
+// meuArray[1] = 2;
+// meuArray[2] = 3;
+// meuArray[3] = 4;
+// meuArray[4] = 5;
+// int soma = 0;
+// foreach (char somando in meuArray)
+// {
+//     soma += somando;
+// }
+// Console.WriteLine($"Soma dos números dentro do Array: {soma}");
+
 
 
 //Exercicio 2
@@ -126,7 +127,7 @@ Console.WriteLine(soma);
 // int contador = 0;
 // foreach (string letra in nomes)
 // {
-//     if ("Jeane".Contains(letra))
+//     if (letra == "Jeane")
 //     {
 //         contador++;
 //     }
@@ -144,10 +145,12 @@ Console.WriteLine(soma);
 // }
 
 
+
 //Exercicio 4
 // HashSet<string> frutas = new HashSet<string> {"Maçã", "Banana", "Laranja"};
 // Console.WriteLine("Banana está no conjunto frutas?");
 // Console.WriteLine(frutas.Contains("Banana") ? "Sim, Banana está no conjunto frutas" : "Não, Banana não está no conjunto frutas");
+
 
 
 //Exercicio 5
