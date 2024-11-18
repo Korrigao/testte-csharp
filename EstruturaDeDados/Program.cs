@@ -132,13 +132,13 @@
 //         contador++;
 //     }
 // }
-// Console.WriteLine($"Número de vezes que o nomes Jeane aparece: {contador}");
+// Console.WriteLine($"Número de vezes que o nome Jeane aparece: {contador}");
 
 
 
 //Exercicio 3
 // List<int> numeros = new List<int> {1,2,2,3,4,4,5};
-// var HashSet = new HashSet<int>(numeros);
+// HashSet<int> HashSet = new HashSet<int>(numeros);
 // foreach (int num in HashSet)
 // {
 //     Console.WriteLine(num);
@@ -154,14 +154,14 @@
 
 
 //Exercicio 5
-// List<int> numeros = new List<int>();
-// for (int i = 1;i < 6;i++)
-// {
-//     numeros.Add(i);
-// }
+List<int> numeros = new List<int>();
+for (int i = 1;i < 6;i++)
+{
+    numeros.Add(i);
+}
 
-// Console.WriteLine($"Números na lista de números:");
-// for (int i = 0; i < numeros.Count; i++)
-// {
-//     Console.WriteLine(numeros[i]);
-// }
+Console.WriteLine($"Números na lista de números:");
+for (int i = 0; i < numeros.Count; i++)
+{
+    Console.WriteLine(numeros[i]);
+}
