@@ -1,6 +1,6 @@
 ﻿//Estrutura de dados armazenam de maneira eficiente dados para que possam ser acessados.
 
-//Array armazenado na memoria e cada elemento armazenado possui um indice. O indice de um array SEMPRE começa com ZERO.
+//Array - armazenado na memoria e cada elemento armazenado possui um indice. O indice de um array SEMPRE começa com ZERO.
 //neste exemplo foi um array do tipo inteiro, o seu tamanho de 5 elementos
 // int[] meuArray = new int[5];
 // meuArray[0] = 10;
@@ -57,7 +57,7 @@ else
 }
 
 
-Console.WriteLine("nomes na lista após a remoção:");
+Console.WriteLine("\nNomes na lista após a remoção:");
 for (int i = 0; i < listadenomes.Count; i++)
 {
     Console.WriteLine(listadenomes[i]);
