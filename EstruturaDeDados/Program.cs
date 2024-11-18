@@ -80,15 +80,85 @@
 
 
 //Outro exemplo:
-HashSet<string> frutas = new HashSet<string> {"maçã", "banana", "laranja"};
-frutas.Add("uva");
-frutas.Add("maçã");
+// HashSet<string> frutas = new HashSet<string> {"maçã", "banana", "laranja"};
+// frutas.Add("uva");
+// frutas.Add("maçã");
 
-Console.WriteLine("Frutas no conjunto:");
-foreach (string fruta in frutas)
+// Console.WriteLine("Frutas no conjunto:");
+// foreach (string fruta in frutas)
+// {
+//     Console.WriteLine(fruta);
+// }
+
+// Console.WriteLine("\nVerificação de existência:");
+// Console.WriteLine(frutas.Contains("banana") ? "banana está no conjunto" : "banana não está no conjunto");
+
+// frutas.Remove("laranja");
+// Console.WriteLine("\nApós remover laranja:");
+// foreach (string fruta in frutas)
+// {
+//     Console.WriteLine(fruta);
+// }
+
+
+
+
+
+
+
+//Exercício 01
+int[] meuArray = new int[5];
+meuArray[0] = 1;
+meuArray[1] = 2;
+meuArray[2] = 3;
+meuArray[3] = 4;
+meuArray[4] = 5;
+int soma = 0;
+foreach (char somando in meuArray)
 {
-    Console.WriteLine(fruta);
+    soma += somando;
 }
+Console.WriteLine(soma);
 
-Console.WriteLine("\nVerificação de existência:");
-Console.WriteLine(frutas.Contains("banana") ? "banana está no conjunto" : "banana não está no conjunto");
+
+//Exercicio 2
+// List<string> nomes = new List<string> {"Jeane", "Wanderson", "Jeane", "Ryan", "Jeane"};
+// int contador = 0;
+// foreach (string letra in nomes)
+// {
+//     if ("Jeane".Contains(letra))
+//     {
+//         contador++;
+//     }
+// }
+// Console.WriteLine($"Número de vezes que o nomes Jeane aparece: {contador}");
+
+
+
+//Exercicio 3
+// List<int> numeros = new List<int> {1,2,2,3,4,4,5};
+// var HashSet = new HashSet<int>(numeros);
+// foreach (int num in HashSet)
+// {
+//     Console.WriteLine(num);
+// }
+
+
+//Exercicio 4
+// HashSet<string> frutas = new HashSet<string> {"Maçã", "Banana", "Laranja"};
+// Console.WriteLine("Banana está no conjunto frutas?");
+// Console.WriteLine(frutas.Contains("Banana") ? "Sim, Banana está no conjunto frutas" : "Não, Banana não está no conjunto frutas");
+
+
+//Exercicio 5
+// List<int> numeros = new List<int>();
+// for (int i = 1;i < 6;i++)
+// {
+//     numeros.Add(i);
+// }
+
+// Console.WriteLine($"Números na lista de números:");
+// for (int i = 0; i < numeros.Count; i++)
+// {
+//     Console.WriteLine(numeros[i]);
+// }
