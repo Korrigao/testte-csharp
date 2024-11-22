@@ -1,0 +1,14 @@
+C:\Users\SENAC\Desktop\testte-csharp\exercicio-classe\bin\Debug\net7.0\exercicio-classe.exe
+C:\Users\SENAC\Desktop\testte-csharp\exercicio-classe\bin\Debug\net7.0\exercicio-classe.deps.json
+C:\Users\SENAC\Desktop\testte-csharp\exercicio-classe\bin\Debug\net7.0\exercicio-classe.runtimeconfig.json
+C:\Users\SENAC\Desktop\testte-csharp\exercicio-classe\bin\Debug\net7.0\exercicio-classe.dll
+C:\Users\SENAC\Desktop\testte-csharp\exercicio-classe\bin\Debug\net7.0\exercicio-classe.pdb
+C:\Users\SENAC\Desktop\testte-csharp\exercicio-classe\obj\Debug\net7.0\exercicio-classe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SENAC\Desktop\testte-csharp\exercicio-classe\obj\Debug\net7.0\exercicio-classe.AssemblyInfoInputs.cache
+C:\Users\SENAC\Desktop\testte-csharp\exercicio-classe\obj\Debug\net7.0\exercicio-classe.AssemblyInfo.cs
+C:\Users\SENAC\Desktop\testte-csharp\exercicio-classe\obj\Debug\net7.0\exercicio-classe.csproj.CoreCompileInputs.cache
+C:\Users\SENAC\Desktop\testte-csharp\exercicio-classe\obj\Debug\net7.0\exercicio-classe.dll
+C:\Users\SENAC\Desktop\testte-csharp\exercicio-classe\obj\Debug\net7.0\refint\exercicio-classe.dll
+C:\Users\SENAC\Desktop\testte-csharp\exercicio-classe\obj\Debug\net7.0\exercicio-classe.pdb
+C:\Users\SENAC\Desktop\testte-csharp\exercicio-classe\obj\Debug\net7.0\exercicio-classe.genruntimeconfig.cache
+C:\Users\SENAC\Desktop\testte-csharp\exercicio-classe\obj\Debug\net7.0\ref\exercicio-classe.dll
