@@ -1,7 +1,7 @@
 ﻿//Getters e Setters
 //Getter - Um metodo utilizado para obter o valor de um atributo. Permite a leitura de um atrbuto privado fora da classe.
 //setter - um metodo utilizado para definir ou modificar o valor de um atributo
-using poo-csharp-2.Modelo;
+using poo_csharp_2.Modelo;
 
 Console.WriteLine("\nPOO: Herança\n");
 

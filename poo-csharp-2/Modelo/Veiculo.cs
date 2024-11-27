@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace poo_03_heranca.Modelo
+//namespace NÃO PODE ser com hífen, por isso o uso do underline
+namespace poo_csharp_2.Modelo
 {
     public class Veiculo
     {
