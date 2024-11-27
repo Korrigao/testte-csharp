@@ -30,22 +30,48 @@
 //                         Console.WriteLine("Wrong input");
 //                         break;
 //                 }
-using System;
-using Calculadora_Modelo;
+// using System;
+// using Calculadora_Modelo;
 
 
-Console.WriteLine("Digite seu número:");
-int num1 = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Digite seu outro número:");
-int num2 = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Digite seu Símbolo + /- / * ou /");
-string operador = Console.ReadLine();
+// Console.WriteLine("Digite seu número:");
+// int num1 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Digite seu outro número:");
+// int num2 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Digite seu Símbolo + /- / * ou /");
+// string operador = Console.ReadLine();
 
-if (operador == +)
+// if (operador == +)
+// {
+//     Console.WriteLine(num1 + num2);
+// }
+// else if (operador == -)
+// {
+//     Console.WriteLine(num1 - num2);
+// }
+
+
+public class Calculadora
 {
-    Console.WriteLine(num1 + num2);
-}
-else if (operador == -)
-{
-    Console.WriteLine(num1 - num2);
+    public double Multiplicar(double a, double b)
+    {
+        return a * b;
+    }
+    public double dividir(double a, double b)
+    {
+        if(b == 0)
+        {
+            Console.WriteLine("Erro, divisão por zaro não permitido");
+            return double.NaN;
+        }
+        return a / b;
+    }
+    public Subtrair(double a, double b)
+    {
+        return a - b;
+    }
+    public adicao(double a, double b)
+    {
+        return a + b;
+    }
 }
