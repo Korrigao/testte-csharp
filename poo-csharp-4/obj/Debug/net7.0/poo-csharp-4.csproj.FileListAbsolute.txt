@@ -1,0 +1,14 @@
+C:\Users\SENAC\Desktop\testte-csharp\poo-csharp-4\bin\Debug\net7.0\poo-csharp-4.exe
+C:\Users\SENAC\Desktop\testte-csharp\poo-csharp-4\bin\Debug\net7.0\poo-csharp-4.deps.json
+C:\Users\SENAC\Desktop\testte-csharp\poo-csharp-4\bin\Debug\net7.0\poo-csharp-4.runtimeconfig.json
+C:\Users\SENAC\Desktop\testte-csharp\poo-csharp-4\bin\Debug\net7.0\poo-csharp-4.dll
+C:\Users\SENAC\Desktop\testte-csharp\poo-csharp-4\bin\Debug\net7.0\poo-csharp-4.pdb
+C:\Users\SENAC\Desktop\testte-csharp\poo-csharp-4\obj\Debug\net7.0\poo-csharp-4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SENAC\Desktop\testte-csharp\poo-csharp-4\obj\Debug\net7.0\poo-csharp-4.AssemblyInfoInputs.cache
+C:\Users\SENAC\Desktop\testte-csharp\poo-csharp-4\obj\Debug\net7.0\poo-csharp-4.AssemblyInfo.cs
+C:\Users\SENAC\Desktop\testte-csharp\poo-csharp-4\obj\Debug\net7.0\poo-csharp-4.csproj.CoreCompileInputs.cache
+C:\Users\SENAC\Desktop\testte-csharp\poo-csharp-4\obj\Debug\net7.0\poo-csharp-4.dll
+C:\Users\SENAC\Desktop\testte-csharp\poo-csharp-4\obj\Debug\net7.0\refint\poo-csharp-4.dll
+C:\Users\SENAC\Desktop\testte-csharp\poo-csharp-4\obj\Debug\net7.0\poo-csharp-4.pdb
+C:\Users\SENAC\Desktop\testte-csharp\poo-csharp-4\obj\Debug\net7.0\poo-csharp-4.genruntimeconfig.cache
+C:\Users\SENAC\Desktop\testte-csharp\poo-csharp-4\obj\Debug\net7.0\ref\poo-csharp-4.dll
