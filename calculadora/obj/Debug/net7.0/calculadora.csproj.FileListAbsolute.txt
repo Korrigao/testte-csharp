@@ -12,3 +12,11 @@ C:\Users\SENAC\Desktop\testte-csharp\calculadora\obj\Debug\net7.0\refint\calcula
 C:\Users\SENAC\Desktop\testte-csharp\calculadora\obj\Debug\net7.0\calculadora.pdb
 C:\Users\SENAC\Desktop\testte-csharp\calculadora\obj\Debug\net7.0\calculadora.genruntimeconfig.cache
 C:\Users\SENAC\Desktop\testte-csharp\calculadora\obj\Debug\net7.0\ref\calculadora.dll
+C:\Users\Korrigao\Documents\GitHub\testte-csharp\calculadora\obj\Debug\net7.0\calculadora.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Korrigao\Documents\GitHub\testte-csharp\calculadora\obj\Debug\net7.0\calculadora.AssemblyInfoInputs.cache
+C:\Users\Korrigao\Documents\GitHub\testte-csharp\calculadora\obj\Debug\net7.0\calculadora.AssemblyInfo.cs
+C:\Users\Korrigao\Documents\GitHub\testte-csharp\calculadora\obj\Debug\net7.0\calculadora.csproj.CoreCompileInputs.cache
+C:\Users\Korrigao\Documents\GitHub\testte-csharp\calculadora\obj\Debug\net7.0\calculadora.sourcelink.json
+C:\Users\Korrigao\Documents\GitHub\testte-csharp\calculadora\obj\Debug\net7.0\calculadora.dll
+C:\Users\Korrigao\Documents\GitHub\testte-csharp\calculadora\obj\Debug\net7.0\refint\calculadora.dll
+C:\Users\Korrigao\Documents\GitHub\testte-csharp\calculadora\obj\Debug\net7.0\calculadora.pdb

@@ -1,49 +1,49 @@
-// using System;
-// using System.Collections.Generic;
-// using System.Linq;
-// using System.Threading.Tasks;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
-// namespace Calculadora_Modelo
-// {
-//     public class Calculadora
-//     {
-//         // int num1;
-//         // int num2;
-//         // string operador;
-
-
-
-//         // public Calculadora(int num1, int num2, string operador)
-//         // {
-//         //     this.num1 = num1;
-//         //     this.num2 = num2;
-//         //     this.operador = operador;
-//         // }
+namespace Calculadora_Modelo
+{
+    public class Calculadora
+    {
+        // int num1;
+        // int num2;
+        // string operador;
 
 
-//         public void somar()
-//         {
-//             Console.WriteLine(num1 + num2);
-//         }
 
-//         public void subtrair()
-//         {
-//             if(num1>num2)
-//             {
-//                 Console.WriteLine(num1 - num2);
-//             }
-//             Console.WriteLine(num2 - num1);
-//         }
+        // public Calculadora(int num1, int num2, string operador)
+        // {
+        //     this.num1 = num1;
+        //     this.num2 = num2;
+        //     this.operador = operador;
+        // }
 
-//         public void multi()
-//         {
-//             Console.Writeline(num1 * num2);
-//         }
+
+        public void somar()
+        {
+            Console.WriteLine(num1 + num2);
+        }
+
+        public void subtrair()
+        {
+            if(num1>num2)
+            {
+                Console.WriteLine(num1 - num2);
+            }
+            Console.WriteLine(num2 - num1);
+        }
+
+        public void multi()
+        {
+            Console.Writeline(num1 * num2);
+        }
         
-//         public void div()
-//         {
-//             Console.WriteLine(num1 / num2);
-//         }
-//     }
+        public void div()
+        {
+            Console.WriteLine(num1 / num2);
+        }
+    }
 
-// }
+}

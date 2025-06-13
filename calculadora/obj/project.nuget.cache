@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "L3R80CmoLTuxmuK8WE7NIw7PfgXXmlWlZep6RE3BOSDulw3jjChvYbdA7jt89wQ7aZGuPsAlPjCqdYlj5rL/ZA==",
+  "dgSpecHash": "5VDdLO36HYE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\SENAC\\Desktop\\testte-csharp\\calculadora\\calculadora.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Korrigao\\Documents\\GitHub\\testte-csharp\\calculadora\\calculadora.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Korrigao\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\Korrigao\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\Korrigao\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\Korrigao\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.20\\microsoft.netcore.app.host.win-x64.7.0.20.nupkg.sha512"
+  ],
   "logs": []
 }
