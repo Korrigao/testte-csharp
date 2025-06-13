@@ -1,0 +1,5 @@
+C:\Users\Korrigao\Documents\GitHub\testte-csharp\testao\obj\Debug\net9.0\testao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Korrigao\Documents\GitHub\testte-csharp\testao\obj\Debug\net9.0\testao.AssemblyInfoInputs.cache
+C:\Users\Korrigao\Documents\GitHub\testte-csharp\testao\obj\Debug\net9.0\testao.AssemblyInfo.cs
+C:\Users\Korrigao\Documents\GitHub\testte-csharp\testao\obj\Debug\net9.0\testao.csproj.CoreCompileInputs.cache
+C:\Users\Korrigao\Documents\GitHub\testte-csharp\testao\obj\Debug\net9.0\testao.sourcelink.json

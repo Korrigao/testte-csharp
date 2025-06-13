@@ -1,42 +1,42 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// // See https://aka.ms/new-console-template for more information
+// Console.WriteLine("Hello, World!");
 
-//Principais operadores : + adição, - subtração, / divisão, * multiplicação, 
-double resultado1 = 12 + 8 + 12 / 4;
-Console.WriteLine(resultado1);
-
-
-double resultado2 = (12 + 8 + 12) / 3;
-Console.WriteLine(resultado2);
+// //Principais operadores : + adição, - subtração, / divisão, * multiplicação, 
+// double resultado1 = 12 + 8 + 12 / 4;
+// Console.WriteLine(resultado1);
 
 
-double resultado3 = (2 + 8) * 2 / 4;
-Console.WriteLine(resultado3);
+// double resultado2 = (12 + 8 + 12) / 3;
+// Console.WriteLine(resultado2);
 
 
-//(!=) =  diferença
-//(==) = Igual
-bool res = 5==10 / 2;
-Console.WriteLine(res);
-bool resu = 3!=6;
-Console.WriteLine(resu);
-//Operadores Lógicos
+// double resultado3 = (2 + 8) * 2 / 4;
+// Console.WriteLine(resultado3);
 
-//AND (&&) lógico = retorna verdadeiro somente se as duas expressões forem verdadeiras
-bool a = true;
-bool b = false;
-Console.WriteLine(a&&b);
 
-//OR (||) Lógico = retorna verdadeiro se ao menos umas das exprossões for verdadeiro
-bool pa = true;
-bool ga = false;
-Console.WriteLine(pa||ga);
+// //(!=) =  diferença
+// //(==) = Igual
+// bool res = 5==10 / 2;
+// Console.WriteLine(res);
+// bool resu = 3!=6;
+// Console.WriteLine(resu);
+// //Operadores Lógicos
 
-//Not Lógico (!) = Inverte o valor de uma expressão. Se é true vira falsa e vice versa
-bool pol = true;
-Console.WriteLine(!pol);
+// //AND (&&) lógico = retorna verdadeiro somente se as duas expressões forem verdadeiras
+// bool a = true;
+// bool b = false;
+// Console.WriteLine(a&&b);
 
-//Ou exclusivo (^) = So irá retornar como verdadeiro se uma expressões E A outra também for falsa.
+// //OR (||) Lógico = retorna verdadeiro se ao menos umas das exprossões for verdadeiro
+// bool pa = true;
+// bool ga = false;
+// Console.WriteLine(pa||ga);
+
+// //Not Lógico (!) = Inverte o valor de uma expressão. Se é true vira falsa e vice versa
+// bool pol = true;
+// Console.WriteLine(!pol);
+
+//Ou exclusivo (^) = So irá retornar como verdadeiro se uma expressões for verdadeira e a outra for falsa.
 bool gap = true;
 bool upa = false;
 Console.WriteLine(gap^upa);

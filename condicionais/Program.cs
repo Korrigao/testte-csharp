@@ -147,22 +147,22 @@
 // Console.WriteLine(mensagem);
 
 
-// Console.WriteLine("Possui presença mínima?");
-// string? pre = Console.ReadLine();
-// bool presença = Convert.ToBoolean(pre);
+Console.WriteLine("Possui presença mínima?");
+string? pre = Console.ReadLine();
+bool presença = Convert.ToBoolean(pre);
 
-// if (presença == false)
-// {
-//     Console.WriteLine("Reprovado");
-// }
-// else
-// {
-//     Console.WriteLine("Possui média maior ou igual a 7?");
-//     string? me = Console.ReadLine();
-//     bool media = Convert.ToBoolean(me);
-//     string? mensagem = media  ? "Aprovado" : "Reprovado";
-//     Console.WriteLine(mensagem);
-// }
+if (presença == false)
+{
+    Console.WriteLine("Reprovado");
+}
+else
+{
+    Console.WriteLine("Possui média maior ou igual a 7?");
+    string? me = Console.ReadLine();
+    bool media = Convert.ToBoolean(me);
+    string? mensagem = media  ? "Aprovado" : "Reprovado";
+    Console.WriteLine(mensagem);
+}
 
 
 
@@ -174,19 +174,19 @@
 // string? mensagem = !chuva && !tarde ? "Vou pedalar!" : "Vou pedalar outro dia";
 // Console.WriteLine(mensagem);
 
-Console.WriteLine("Choveu?");
-string? ch = Console.ReadLine();
-bool choveu = Convert.ToBoolean(ch);
+// Console.WriteLine("Choveu?");
+// string? ch = Console.ReadLine();
+// bool choveu = Convert.ToBoolean(ch);
 
-if (choveu)
-{
-    Console.WriteLine("Vou pedalar outro dia.");
-}
-else
-{
-    Console.WriteLine("Está tarde?");
-    string? ta = Console.ReadLine();
-    bool tarde = Convert.ToBoolean(ta);
-    string? mensagem = !tarde ? "Vou pedalar" : "Vou pedalar outro dia";
-    Console.WriteLine(mensagem);
-}
+// if (choveu)
+// {
+//     Console.WriteLine("Vou pedalar outro dia.");
+// }
+// else
+// {
+//     Console.WriteLine("Está tarde?");
+//     string? ta = Console.ReadLine();
+//     bool tarde = Convert.ToBoolean(ta);
+//     string? mensagem = !tarde ? "Vou pedalar" : "Vou pedalar outro dia";
+//     Console.WriteLine(mensagem);
+// }
